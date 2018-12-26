@@ -1,0 +1,93 @@
+Schritt1:
+SourceRSC Runterladen https://www.brainless.us/downloadcategory/20/source-fast-download-management-(sourcersc)
+
+Schritt2:
+SourceRSC eintpacken mit dem Tool euerer wahl
+
+Schritt3:
+example.ini in SourceRSC.ini umbenenen (windows)
+example-linux in SourceRSC umbenennen (Linux)
+
+Schritt 4:
+SourceRSC.ini Öffnen
+
+Schritt 5:
+[GameMod] auf genutztes spiel einstellen z.b. GMOD
+
+Schritt 6:
+[GSQryMode] Einstellen auf Local oder FTP
+
+Schritt 7:
+[RedirQryMode] Einstellen auf FTP oder Local
+
+Schritt 8:
+[SkipAddons] Einstellen für Gmod auf false stellen
+
+Schritt 9:
+[SkipMisc] Einstellen true wird empfohlen
+
+Schritt 10:
+[FTPSrvr] Einstellen Gameserver IP oder Domain (IP funktioniert nach eigener erfahrung besser)
+
+Schritt 11:
+[FTPPort] Einstellen Standart ist 21
+
+Schritt 12:
+[FTPUser] usernamen für den gameserver FTP eintragen
+
+Schritt 13:
+[FTPPass] Password für den gameserver FTP eintragen
+
+Schritt 14:
+[FTPPath] Pfad zum gameserver eintragen z.b. /gmod/garrysmod --- danach kommt addons etc
+
+Schritt 15:
+[FTPPasv] Passiven modus verwenden? true sollte meistens funktionieren
+
+Schritt 16:
+[Redir-FTPSrvr] Webspace Ip eintragen oder domain (ip funktioniert meistens besser)
+
+Schritt 17:
+[Redir-FTPPort] Webhspace FTP port angeben standart ist 21
+
+Schritt 18:
+[Redir-FTPUser] Webspace FTP user name eintragen
+
+Schritt 19:
+[Redir-FTPPass] Webspace FTP password
+
+Schritt 20:
+[Redir-FTPPath] Pfad für den Fastdl angeben z.b. /fastdl
+
+Schritt 21:
+[Redir-FTPPasv] Passiv Modus verwenden?
+
+Schritt 22:
+[Redir-Upload] Komprimierte daten automatisch hochladen? True/False
+
+Schritt 23:
+[Redir-CreateFtpPath] Den FTP pfad erstellen wenn er nicht existiert?
+
+Schritt 24:
+[Debug] Debug an oder aus? True/False
+
+Schrit 25:
+[AutoUpdate] Tool automatisch updaten?
+
+Schrit 26:
+[RedirectCleaner] Nicht mehr auf dem Gameserver vorhandene daten Löschen? OFF= feature deaktiviert report= Daten werden angezeigt 
+delete= Daten werden gelöscht
+
+Schritt 27:
+Datei Speichern
+
+Schritt 28:
+SourceRSC.exe ausführen (windows)
+linux-sourcersc.sh ausführen (linux)
+
+Schritt 29:
+Das Tool lädt alle benötigten files vom Gameserver runter und komprimiert diese im bz2 format und lädt diese daten danach auf den 
+Webspace hoch, der passende pfad wird eingehalten.
+
+Schritt 30:
+Fastdl pfad in der server.cfg eintragen (gmod sv_downloadurl)
