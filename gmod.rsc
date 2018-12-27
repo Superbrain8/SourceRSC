@@ -855,7 +855,7 @@ resource\chromium\cef.pak
 resource\chromium\cef_100_percent.pak
 resource\chromium\cef_200_percent.pak
 resource\chromium\cef_extensions.pak
-resource\chromium\fevtools_resources.pak
+resource\chromium\devtools_resources.pak
 resource\ChatScheme.res
 resource\ClientScheme.res
 resource\closecaption_english.dat
