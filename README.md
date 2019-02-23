@@ -1,2 +1,2 @@
 # SourceRSC
-Source RSC Default Filters
+SourceRSC Filters and Manuals
